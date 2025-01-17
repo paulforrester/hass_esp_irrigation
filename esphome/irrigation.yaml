@@ -468,42 +468,42 @@ switch:
   - platform: gpio
     name: "Irrigation Pump"
     id: irrigation_pump
-    pin: GPIO12
+    pin: GPIO38 # Use RGB LED
     inverted: true
     restore_mode: ALWAYS_OFF
 
   - platform: gpio
     id: irrigation_channel6
-    pin: GPIO32
+    pin: GPIO46
     inverted: true
     restore_mode: ALWAYS_OFF
 
   - platform: gpio
     id: irrigation_channel5
-    pin: GPIO33
+    pin: GPIO45
     inverted: true
     restore_mode: ALWAYS_OFF
 
   - platform: gpio
     id: irrigation_channel4
-    pin: GPIO25
+    pin: GPIO42
     inverted: true
     restore_mode: ALWAYS_OFF
 
   - platform: gpio
     id: irrigation_channel3
-    pin: GPIO26
+    pin: GPIO41
     inverted: true
     restore_mode: ALWAYS_OFF
 
   - platform: gpio
     id: irrigation_channel2
-    pin: GPIO27
+    pin: GPIO02
     inverted: true
 
   - platform: gpio
     id: irrigation_channel1
-    pin: GPIO14
+    pin: GPIO01
     inverted: true
     restore_mode: ALWAYS_OFF
 
